@@ -27,7 +27,7 @@ function App() {
 
   useEffect(() => {
     // Fetch and parse the CSV
-    Papa.parse('/Combined_All_Questions.csv', {
+    Papa.parse('Combined_All_Questions.csv', {
       download: true,
       header: true,
       skipEmptyLines: true,
